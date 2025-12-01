@@ -141,19 +141,5 @@ nav a {
   transition: opacity 160ms ease;
 }
 
-.back-to-top-side.show {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.back-to-top-side:active {
-  opacity: 0.85;
-}
-
-@media (min-width: 801px) {
-  .back-to-top-side {
-    display: none;
-  }
-}
 
 
