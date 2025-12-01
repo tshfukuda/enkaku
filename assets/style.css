@@ -1,0 +1,89 @@
+:root {
+  --bg: #0b0f17;
+  --card: #121826;
+  --text: #e5e7eb;
+  --muted: #9ca3af;
+  --accent: #60a5fa;
+  --radius: 14px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans JP", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.header {
+  text-align: center;
+  padding: 40px 20px 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 26px;
+}
+
+.subtitle {
+  margin: 6px 0 16px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+nav a {
+  margin: 0 8px;
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.section {
+  padding: 28px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section h2 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+.pub {
+  background: var(--card);
+  padding: 14px 18px;
+  border-radius: var(--radius);
+  margin-bottom: 14px;
+}
+
+.pub h3 {
+  margin: 0 0 6px;
+  font-size: 17px;
+}
+
+.meta {
+  margin: 0 0 8px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.email {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+  .header h1 { font-size: 22px; }
+  .section { padding: 22px 16px; }
+}
