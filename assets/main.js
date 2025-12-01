@@ -1,15 +1,15 @@
 document.getElementById("year").textContent = new Date().getFullYear();
 
-const btn = document.getElementById("backToTop");
+const sideBtn = document.getElementById("backToTopSide");
 
-function toggleBackToTop() {
-  if (!btn) return;
-  if (window.scrollY > 400) {
-    btn.classList.add("show");
+function toggleSideBtn() {
+  if (!sideBtn) return;
+  if (window.scrollY > 300) {
+    sideBtn.classList.add("show");
   } else {
-    btn.classList.remove("show");
+    sideBtn.classList.remove("show");
   }
 }
 
-window.addEventListener("scroll", toggleBackToTop, { passive: true });
-toggleBackToTop();
+window.addEventListener("scroll", toggleSideBtn, { passive: true });
+toggleSideBtn();
