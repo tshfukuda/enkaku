@@ -2,92 +2,103 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="株式会社エンカク | 遠隔画像診断・画像診断コンサルテーション" />
   <title>株式会社エンカク | 遠隔画像診断</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link rel="stylesheet" href="./assets/style.css" />
 </head>
 <body>
-  <header class="header">
-    <h1>株式会社エンカク</h1>
-    <p class="subtitle">代表取締役 福田 俊憲</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#publications">Services</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top">株式会社エンカク</a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="globalNav">メニュー</button>
+      <nav id="globalNav" class="global-nav" aria-label="グローバルナビゲーション">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#profile">Profile</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
   <main>
-
-    <section id="about" class="section">
-      <h2>About</h2>
-      <p>
-        株式会社エンカクは、遠隔画像診断を中心に、画像診断に関する相談対応や臨床支援を行います。
-        医療現場の意思決定を支えるため、迅速で丁寧なコミュニケーションと、実務に即したレポーティングを重視しています。
-      </p>
-      <p>
-        国内外の医療機関や企業との連携も視野に入れ、国際的な共同プロジェクトや多言語環境での協働にも対応可能な体制づくりを進めています。
-      </p>
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">Remote Radiology Reporting</p>
+        <h1>遠隔画像診断で、<br />医療現場の意思決定を支える。</h1>
+        <p class="hero-copy">
+          株式会社エンカクは、遠隔画像診断・画像診断相談・国際連携支援を通じて、
+          迅速かつ実践的な放射線診断サポートを提供します。
+        </p>
+        <a class="cta" href="#contact">お問い合わせ</a>
+      </div>
     </section>
 
-    <section id="publications" class="section">
-      <h2>Services</h2>
-
-      <article class="pub">
-        <h3>遠隔画像診断</h3>
-        <p class="meta">Remote Radiology Reporting</p>
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
         <p>
-          胸部領域を中心とした画像診断レポート作成。運用フローに合わせたフォーマット整備や品質管理も支援します。
+          株式会社エンカクは、胸部領域を中心に、遠隔画像診断および画像診断に関する相談対応を行っています。
+          現場での運用に即したレポート品質と、医師・技師・運用担当者との丁寧なコミュニケーションを重視しています。
         </p>
-      </article>
+      </div>
+    </section>
 
-      <article class="pub">
-        <h3>画像診断相談</h3>
-        <p class="meta">Imaging Consultation</p>
-        <p>
-          所見の整理、鑑別の考え方、追加撮像やフォロー方針の相談など、画像診断に関する実務的なディスカッションに対応します。
-        </p>
-      </article>
+    <section id="services" class="section alt">
+      <div class="container">
+        <h2>Services</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>遠隔画像診断</h3>
+            <p class="label">Remote Reporting</p>
+            <p>胸部領域を中心とした読影レポート作成。施設運用に合わせたフォーマット整備や品質管理にも対応します。</p>
+          </article>
+          <article class="card">
+            <h3>画像診断相談</h3>
+            <p class="label">Imaging Consultation</p>
+            <p>鑑別診断、追加検査の検討、フォローアップ方針など、日常診療に直結する相談をサポートします。</p>
+          </article>
+          <article class="card">
+            <h3>国際連携サポート</h3>
+            <p class="label">International Collaboration</p>
+            <p>海外施設や多言語環境での共同プロジェクトを見据えた、運用設計・コミュニケーション支援を行います。</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-      <article class="pub">
-        <h3>国際的な連携サポート</h3>
-        <p class="meta">International Collaboration</p>
+    <section id="profile" class="section">
+      <div class="container profile">
+        <h2>Profile</h2>
+        <p class="lead">日米放射線診断専門医 福田 俊憲（Toshinori Fukuda）</p>
         <p>
-          海外施設やグローバルチームとの協働を想定した、プロジェクト運用支援やコミュニケーション整備を行います。
-        </p>
-      </article>
-      
-    　<article class="pub">
-        <h3>私について</h3>
-        <p class="meta">日米放射線科診断専門医 福田 俊憲（Toshinori Fukuda）</p>
-        <p>
-          放射線診断専門医として、日本と米国の臨床現場で培った視点を生かし、
-          画像から得られる情報をわかりやすく整理し、意思決定につながる形で提供することを大切にしています。
-          遠隔画像診断はもちろん、症例検討や運用改善の相談など、現場のニーズに合わせた柔軟なサポートを行います。
+          日本と米国の臨床現場で培った知見を活かし、
+          画像から得られる情報をわかりやすく整理して、診療の意思決定につながる形で提供することを大切にしています。
         </p>
         <ul>
           <li>2014年 富山大学医学部 卒業</li>
-          <li>2021年 聖路加国際病院にて放射線科診断専門医 取得</li>
+          <li>2021年 聖路加国際病院にて放射線診断専門医 取得</li>
         </ul>
-      </article>
-      
+      </div>
     </section>
 
-    <section id="contact" class="section">
-      <h2>Contact</h2>
-      <p>ご相談や共同プロジェクトのご連絡は、こちらからお願いします。</p>
-      <p><a class="email" href="mailto:tshfukuda@gmail.com">enkaku.rad@gmail.com</a></p>
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>ご相談・共同プロジェクトのご連絡は、メールでお気軽にお問い合わせください。</p>
+        <p><a class="mail" href="mailto:enkaku.rad@gmail.com">enkaku.rad@gmail.com</a></p>
+      </div>
     </section>
-    
-
-    
   </main>
 
-  <footer class="footer">
-    <small>© <span id="year"></span> 株式会社エンカク</small>
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> 株式会社エンカク</small>
+    </div>
   </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="ページ上部へ戻る">↑ Top</button>
+
   <script src="./assets/main.js"></script>
-
-
 </body>
 </html>
